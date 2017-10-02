@@ -1,2 +1,2 @@
-# jfront
+# jfront3
 Modern javascript frontend application
