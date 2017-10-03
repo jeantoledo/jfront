@@ -24,5 +24,10 @@ module.exports = {
   plugins: webpackPlugins,
   module: {
     rules: webpackModuleRules
+  },
+  devServer: {
+    contentBase: path.join(__dirname, "dist"),
+    compress: true,
+    port: 3000
   }
 }

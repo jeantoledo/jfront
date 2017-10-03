@@ -7,7 +7,7 @@
   "author": "jeantoledo",
   "license": "MIT",
   "scripts": {
-    "start": "webpack --config webpack.dev.config.js"
+    "start": "webpack-dev-server --open --config webpack.dev.config.js"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
@@ -16,6 +16,7 @@
     "clean-webpack-plugin": "^0.1.17",
     "html-loader": "^0.5.1",
     "html-webpack-plugin": "^2.30.1",
-    "webpack": "^3.6.0"
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1"
   }
 }
