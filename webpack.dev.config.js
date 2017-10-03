@@ -22,5 +22,7 @@ module.exports = {
     filename: 'bundle.js'
   },
   plugins: webpackPlugins,
-  module: { rules: webpackModuleRules }
+  module: {
+    rules: webpackModuleRules
+  }
 }
