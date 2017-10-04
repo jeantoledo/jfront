@@ -6,28 +6,28 @@ const plugins = [
   new CleanWebpackPlugin(['dist']),
   new HtmlWebpackPlugin({
     template: 'app/index.html',
-    inject: true
-  })
+    inject: true,
+  }),
 ];
 
 const moduleRules = [
   { test: /\.html$/, exclude: /node_modules/, use: 'html-loader' },
-  { test: /\.js$/, exclude: /node_modules/, use: "babel-loader" }
+  { test: /\.js$/, exclude: /node_modules/, use: 'babel-loader' },
 ];
 
 module.exports = {
   entry: './app/app.js',
   output: {
-    path: path.resolve(__dirname, "dist"),
-    filename: 'bundle.js'
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'bundle.js',
   },
-  plugins: plugins,
+  plugins,
   module: {
-    rules: moduleRules
+    rules: moduleRules,
   },
   devServer: {
-    contentBase: path.join(__dirname, "dist"),
+    contentBase: path.join(__dirname, 'dist'),
     compress: true,
-    port: 3000
-  }
-}
+    port: 3000,
+  },
+};
