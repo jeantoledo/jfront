@@ -1,4 +1,5 @@
-# Modern Javascript Frontend Application
+# Modern Javascript Frontend Application 
+[![Build Status](https://travis-ci.org/jeantoledo/jfront.svg?branch=master)](https://travis-ci.org/jeantoledo/jfront)
 
 ## Stack:
 
