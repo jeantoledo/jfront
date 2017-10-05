@@ -17,13 +17,12 @@ const moduleRules = [
 
 module.exports = {
   entry: './app/app.js',
+  output: {
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'bundle.js',
+  },
   plugins,
   module: {
     rules: moduleRules,
-  },
-  devServer: {
-    contentBase: path.join(__dirname, 'dist'),
-    compress: true,
-    port: 3000,
   },
 };
