@@ -1,29 +1,30 @@
-const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const CleanWebpackPlugin = require('clean-webpack-plugin');
+
+const entries = {
+  bundle: './app/app.js',
+};
+
+const modules = {
+  rules: [
+    { test: /\.html$/, exclude: /node_modules/, use: 'html-loader' },
+    { test: /\.js$/, exclude: /node_modules/, use: 'babel-loader' },
+    { test: /\.scss$/, exclude: /node_modules/, use: [{ loader: 'style-loader' }, { loader: 'css-loader' }, { loader: 'sass-loader' }] },
+  ],
+};
 
 const plugins = [
-  new CleanWebpackPlugin(['dist']),
   new HtmlWebpackPlugin({
     template: 'app/index.html',
     inject: true,
   }),
 ];
 
-const moduleRules = [
-  { test: /\.html$/, exclude: /node_modules/, use: 'html-loader' },
-  { test: /\.js$/, exclude: /node_modules/, use: 'babel-loader' },
-];
-
 module.exports = {
-  entry: './app/app.js',
+  entry: entries,
+  module: modules,
   plugins,
-  module: {
-    rules: moduleRules,
-  },
   devServer: {
-    contentBase: path.join(__dirname, 'dist'),
-    compress: true,
+    contentBase: '/',
     port: 3000,
   },
 };
