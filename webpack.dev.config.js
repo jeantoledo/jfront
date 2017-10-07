@@ -2,6 +2,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const entries = {
   bundle: './app/app.js',
+  vendor: './app/vendors/vendor.js',
 };
 
 const modules = {
@@ -26,5 +27,9 @@ module.exports = {
   devServer: {
     contentBase: '/',
     port: 3000,
+  },
+  output: {
+    path: '/',
+    filename: '[name].[chunkhash].js',
   },
 };

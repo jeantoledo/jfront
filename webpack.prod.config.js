@@ -6,6 +6,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 const entries = {
   bundle: './app/app.js',
+  vendor: './app/vendors/vendor.js',
 };
 
 const extractSass = new ExtractTextPlugin({
@@ -36,6 +37,6 @@ module.exports = {
   plugins,
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: '[name].js',
+    filename: '[name].[chunkhash].js',
   },
 };
