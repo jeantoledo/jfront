@@ -1,4 +1,4 @@
-# Modern Javascript Frontend Application 
+# Modern Javascript Frontend Application
 [![Build Status](https://travis-ci.org/jeantoledo/jfront.svg?branch=master)](https://travis-ci.org/jeantoledo/jfront)
 
 ## Stack:
@@ -8,7 +8,7 @@
 - Yarn 1+
 - Webpack Dev Server
 - ESLint (airbnb)
-
+- Bulma (UI Framework)
 ## Decisions
 
 - Not use HMR with Webpack Dev Server
