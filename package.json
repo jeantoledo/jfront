@@ -1,8 +1,8 @@
 {
   "name": "jfront",
   "version": "1.0.0",
-  "description": "Modern Frontend Application",
-  "main": "index.js",
+  "description": "Javascript Single Page Application",
+  "main": "app.js",
   "repository": "https://github.com/jeantoledo/jfront.git",
   "author": "jeantoledo",
   "license": "MIT",

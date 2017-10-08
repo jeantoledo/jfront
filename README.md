@@ -1,4 +1,4 @@
-# Modern Javascript Frontend Application
+# Javascript Single Page Application
 [![Build Status](https://travis-ci.org/jeantoledo/jfront.svg?branch=master)](https://travis-ci.org/jeantoledo/jfront)
 
 Application [Demo](https://jeantoledo.github.io/jfront/)
@@ -11,9 +11,10 @@ Application [Demo](https://jeantoledo.github.io/jfront/)
 - Webpack Dev Server
 - ESLint (airbnb)
 - Bulma (UI Framework)
+- Travis CI
 
 ## Decisions
 
 - Not use HMR with Webpack Dev Server
-  - Why? I think that HMR isn't a requirement, despite the productivity improvement. HMR have some side effects that require some code to work properly (like old events attached in dom nodes and append elements logic).
+  - Why? I think that HMR isn't a requirement. Despite the productivity improvement, HMR have some side effects that require code to work properly (like old events attached in dom nodes and append elements logic).
 
