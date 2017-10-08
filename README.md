@@ -1,6 +1,8 @@
 # Modern Javascript Frontend Application
 [![Build Status](https://travis-ci.org/jeantoledo/jfront.svg?branch=master)](https://travis-ci.org/jeantoledo/jfront)
 
+Application [Demo](https://jeantoledo.github.io/jfront/)
+
 ## Stack:
 
 - Babel (env preset)
@@ -9,6 +11,7 @@
 - Webpack Dev Server
 - ESLint (airbnb)
 - Bulma (UI Framework)
+
 ## Decisions
 
 - Not use HMR with Webpack Dev Server
