@@ -3,6 +3,7 @@ node_js:
   - "8"
 script:
   - yarn lint
+  - yarn build
 deploy:
   provider: pages
   skip_cleanup: true
