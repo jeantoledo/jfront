@@ -1,14 +1,14 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const entries = {
-  bundle: './app/app.js',
+  bundle: './app/app.jsx',
   vendor: './app/vendors/vendor.js',
 };
 
 const modules = {
   rules: [
     { test: /\.html$/, exclude: /node_modules/, use: 'html-loader' },
-    { test: /\.js$/, exclude: /node_modules/, use: 'babel-loader' },
+    { test: /\.jsx?$/, exclude: /node_modules/, use: 'babel-loader' },
     { test: /\.scss$/, exclude: /node_modules/, use: [{ loader: 'style-loader' }, { loader: 'css-loader' }, { loader: 'sass-loader' }] },
   ],
 };
