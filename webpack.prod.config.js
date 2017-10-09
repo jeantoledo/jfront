@@ -36,6 +36,9 @@ module.exports = {
   entry: entries,
   module: modules,
   plugins,
+  resolve: {
+    extensions: ['.js', '.jsx'],
+  },
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: '[name].[chunkhash].js',

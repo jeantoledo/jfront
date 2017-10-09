@@ -24,6 +24,9 @@ module.exports = {
   entry: entries,
   module: modules,
   plugins,
+  resolve: {
+    extensions: ['.js', '.jsx'],
+  },
   devServer: {
     contentBase: '/',
     port: 3000,
