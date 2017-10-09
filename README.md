@@ -12,6 +12,7 @@ Application [Demo](https://jeantoledo.github.io/jfront/)
 - ESLint (airbnb)
 - Bulma (UI Framework)
 - Travis CI
+- React 16
 
 ## Decisions
 
