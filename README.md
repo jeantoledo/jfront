@@ -13,6 +13,7 @@ Application [Demo](https://jeantoledo.github.io/jfront/)
 - Bulma (UI Framework)
 - Travis CI
 - React 16
+- Jest
 
 ## Decisions
 
