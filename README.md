@@ -19,3 +19,6 @@ Application [Demo](https://jeantoledo.github.io/jfront/)
 - Not use HMR with Webpack Dev Server
   - Why? I think that HMR isn't a requirement. Despite the productivity improvement, HMR have some side effects that require code to work properly (like old events attached in dom nodes and append elements logic).
 
+## Useful commands
+
+Updating project packages: `yarn upgrade-interactive`
