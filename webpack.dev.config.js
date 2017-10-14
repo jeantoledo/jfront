@@ -2,7 +2,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const entries = {
   bundle: './app/app.jsx',
-  vendor: './app/vendors/vendor.js',
+  vendor: ['react', 'react-dom', 'prop-types'],
 };
 
 const modules = {
