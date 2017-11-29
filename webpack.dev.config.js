@@ -16,6 +16,7 @@ const modules = {
 const plugins = [
   new HtmlWebpackPlugin({
     template: 'app/index.html',
+    favicon: 'favicon.ico',
     inject: true,
   }),
 ];
