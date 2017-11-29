@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import JSection from './components/JSection';
+import Home from './home';
 import './app.scss';
 
 ReactDOM.render(
-  <JSection title="JFront" subtitle="Javascript Single Page Application" />,
+  <Home />,
   document.getElementById('app'),
 );
