@@ -1,4 +1,4 @@
-# Opinionated Javascript Single Page Application Scaffold Edit
+# Opinionated Javascript Single Page Application Scaffold
 
 [![Build Status](https://travis-ci.org/jeantoledo/jfront.svg?branch=master)](https://travis-ci.org/jeantoledo/jfront)
 
