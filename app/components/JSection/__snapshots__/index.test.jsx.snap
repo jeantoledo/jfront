@@ -7,16 +7,31 @@ exports[`JSection render title and subtitle props 1`] = `
   <div
     className="container is-fluid"
   >
-    <h1
-      className="title"
+    <div
+      className="columns"
     >
-      JFront
-    </h1>
-    <h2
-      className="subtitle"
-    >
-      Javascript Single Page Application
-    </h2>
+      <div
+        className="column is-narrow"
+      >
+        <img
+          src={undefined}
+        />
+      </div>
+      <div
+        className="column"
+      >
+        <h1
+          className="title"
+        >
+          JFront
+        </h1>
+        <h2
+          className="subtitle"
+        >
+          Javascript Single Page Application
+        </h2>
+      </div>
+    </div>
   </div>
 </section>
 `;
