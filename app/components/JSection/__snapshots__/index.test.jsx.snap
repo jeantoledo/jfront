@@ -11,13 +11,6 @@ exports[`JSection render title and subtitle props 1`] = `
       className="columns"
     >
       <div
-        className="column is-narrow"
-      >
-        <img
-          src={undefined}
-        />
-      </div>
-      <div
         className="column"
       >
         <h1
