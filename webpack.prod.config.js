@@ -18,6 +18,7 @@ const modules = {
     { test: /\.html$/, exclude: /node_modules/, use: 'html-loader' },
     { test: /\.jsx?$/, exclude: /node_modules/, use: 'babel-loader' },
     { test: /\.scss$/, exclude: /node_modules/, use: extractSass.extract({ use: [{ loader: 'css-loader', options: { minimize: true } }, { loader: 'sass-loader' }] }) },
+    { test: /\.(png|jp(e*)g|svg)$/, use: [{ loader: 'url-loader', options: { limit: 8000, name: 'images/[name].[hash].[ext]' } }] },
   ],
 };
 
