@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from './jsection.scss';
 
 const JSection = props => (
   <section className="section">
@@ -11,7 +12,7 @@ const JSection = props => (
           </div>
         : null }
         <div className="column">
-          <h1 className="title">{props.title}</h1>
+          <h1 className={`title ${styles.jtitle}`}>{props.title}</h1>
           <h2 className="subtitle">{props.subtitle}</h2>
         </div>
       </div>
