@@ -6,6 +6,11 @@
   "repository": "https://github.com/jeantoledo/jfront.git",
   "author": "jeantoledo",
   "license": "MIT",
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(css|scss)$": "identity-obj-proxy"
+    }
+  },
   "scripts": {
     "start": "webpack-dev-server --open --config webpack.dev.config.js",
     "build": "webpack -p --config webpack.prod.config.js",
@@ -28,6 +33,7 @@
     "file-loader": "^1.1.6",
     "html-loader": "^0.5.1",
     "html-webpack-plugin": "^2.30.1",
+    "identity-obj-proxy": "^3.0.0",
     "jest": "^21.2.1",
     "node-sass": "^4.7.2",
     "react-test-renderer": "^16.2.0",
