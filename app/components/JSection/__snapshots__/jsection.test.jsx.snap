@@ -14,7 +14,7 @@ exports[`JSection render title and subtitle props 1`] = `
         className="column"
       >
         <h1
-          className="title"
+          className="title jtitle"
         >
           JFront
         </h1>
