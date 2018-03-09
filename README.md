@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/jeantoledo/jfront.svg?branch=master)](https://travis-ci.org/jeantoledo/jfront)
 
-[Demo Application](https://jeantoledo.github.io/jfront/)
+<a href="https://jeantoledo.github.io/jfront/" target="_blank">Demo Application</a>
 
 ## Stack:
 
