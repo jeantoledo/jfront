@@ -1,6 +1,6 @@
 # Opinionated Javascript Single Page Application Scaffold
 
-[![Build Status](https://travis-ci.org/jeantoledo/jfront.svg?branch=master)](https://travis-ci.org/jeantoledo/jfront)
+[![CircleCI](https://circleci.com/gh/jeantoledo/jfront.svg?style=svg)](https://circleci.com/gh/jeantoledo/jfront)
 
 [Demo Application](https://jeantoledo.github.io/jfront/)
 
