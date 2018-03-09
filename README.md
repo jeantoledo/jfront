@@ -13,9 +13,9 @@
 - ESLint (airbnb)
 - Bulma (UI Framework)
 - CSS Modules
-- Travis CI
 - React 16
 - Jest
+- Circle CI
 
 ## Decisions
 
@@ -24,6 +24,8 @@
 - Bulma instead of Bootstrap, Foundation, Semantic UI, etc.
   - **Why?** Bulma is simple, modularized and CSS Only.
 - Css Modules only for custom css
+- Circle CI
+  - **Why?** Free for private repos!
 
 ## Useful commands
 
