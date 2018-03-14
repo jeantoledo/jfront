@@ -2,7 +2,7 @@
 
 [![CircleCI](https://circleci.com/gh/jeantoledo/jfront.svg?style=svg)](https://circleci.com/gh/jeantoledo/jfront)
 
-[Demo Application](https://jeantoledo.github.io/jfront/)
+[Demo Application](http://jfront.s3-website-sa-east-1.amazonaws.com/)
 
 ## Stack:
 
